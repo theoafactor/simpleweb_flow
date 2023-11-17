@@ -10,3 +10,8 @@ jobs:
     steps:
      - name: "Say Hello World"
        run: echo "Hello world"
+
+     - name: "Test project"
+       run: |
+        echo "How are you?"
+        echo "I am fine"
